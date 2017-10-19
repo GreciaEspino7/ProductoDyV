@@ -1,0 +1,69 @@
+//divide y venceras para medios
+//divide y venceras con gauss
+//divide y venceras para tercios
+
+main()
+{
+int opc;
+char op;
+do
+{
+printf("\n\n\t\tProducto de dos numeros con DyV");
+printf("\n\n\tSeleccione una opcion: ");
+printf("\n\n\t\t1. DyV para medios\n\t\t2. DyV con Gauss\n\t\t3. DyV para tercios ");
+printf("\n\n\tOPCION: ");
+scanf("%d", &opc);
+switch(opc)
+{
+case 1:
+int DVT( int x, int y, inf dx, int dy){
+         for(dx
+     //  if(dx<3 || dy<3) {
+       //    return x*y;
+     // }
+      //   else {
+        //        calcularCoeficientes(dx, dy)
+	//	Ix= Dividir(x,0)
+	//	Mx= Dividir(x,1)
+	//	Dx= Dividir(x,2)
+	//	Iy= Dividir(y,0)
+	//	My= Dividir(y,1)
+	//	Dy= Dividir(y,2)
+	//	n1= A*DVT(Ix, Iy, dx/3, dy/3);
+	//	n2= B*DVT(Ix, My, dx/3, dy/3);
+	//	n3= C*DVT(Ix, Dy, dx/3, dy/3);
+	//	n4= D*DVT(Mx, Iy, dx/3, dy/3);
+	//	n5= E*DVT(Mx, My, dx/3, dy/3);
+	//	n6= F*DVT(Mx, Dy, dx/3, dy/3);
+	//	n7= G*DVT(Dx, Iy, dx/3, dy/3);
+	//	n8= H*DVT(Dx, My, dx/3, dy/3);
+	//	n9= DVT(Dx, Dy, dx/3, dy/3);
+	//	return n1+n2+n3+n4+n5+n6+n7+n8+n9;
+       //}
+}
+break;
+case 2:
+
+
+
+
+
+
+break;
+
+
+case 3:
+
+
+
+break;
+default:
+printf("OPCION INVALIDA");
+}
+fflush(stdin);
+printf("Quiere nuevamente repetir una operacion: (s/n)");
+scanf("%c", &op);
+}
+while(op != 'N' && op != 'n');
+getch();
+}
